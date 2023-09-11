@@ -1,4 +1,3 @@
-//HTML CODE
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -93,6 +92,9 @@
     <script src="https://kit.fontawesome.com/26504e4a1f.js" crossorigin="anonymous"></script>
 </body>
 </html>
+
+
+
 
 //CSS CODE
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
@@ -212,11 +214,7 @@ nav ul li{
     transition: opacity 0.4s ease-in;
 }
 
-@media only screen and (max-width: 1100px) {
-    body {
-      background-color: red;
-    }
-  }
+
 
 //JAVASCRIPT CODE
 console.log("Welcome to VRS MUSIC");
@@ -328,3 +326,8 @@ document.getElementById('previous').addEventListener('click', ()=>{
     masterPlay.classList.remove('fa-play-circle');
     masterPlay.classList.add('fa-pause-circle');
 })
+@media only screen and (max-width: 1100px) {
+    body {
+      background-color: red;
+    }
+  }
